@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+header { 
+    width: 100%;
+    height: 60px;
+    box-shadow: #73d04a 0 0.5px 3px;
+}
+  
+.logo {
+    float: left;
+    margin-left: 10px;
+}
+  
+.logo h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: .8em 0 .3em 10px;
+    display: inline-block;
+}
+  
+.logo img {
+    max-width: 60px;
+    float: left;
+}
+  
+nav {
+    float: right;
+}
+  
+nav ul, li {
+    margin: 0; 
+    padding: 0;
+}
+  
+nav li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    height: 100vh;
+    width: 85%;
+}
+
+.user-data input[type=text]{
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    border:0;
+    border-radius:5px;
+    box-shadow:0 0 1px 1px #73d04a;
+}
+
+.user-data input[type=password]{
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    border:0;
+    border-radius:5px;
+    box-shadow:0 0 1px 1px #73d04a;
+}
+
+.user-data input[type=submit]{
+    margin-top: 15px;
+    padding: 5px;
+    border:0;
+    border-radius:5px;
+    box-shadow:0 0 1px 1px #73d04a;
+    width: 100%;
+}
+
+.login{
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    border-left: 1px solid black;
+}
+
+.img-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-phone img{
+    width: 530px;
+    height: 530px;
+}
+
+.img-plant-1, .img-plant-2, .img-plant-3, .img-plant-4, .img-phone{
+    position: absolute;
+}
+
+.img-plant-1 {
+    top: -4%;
+    left: -24px;
+    transform: rotate(-10deg);
+}
+
+.img-plant-2 {
+    top: 3%;
+    right: 30%;
+    transform: rotate(-26deg);
+}
+
+.img-plant-3 {
+    left: 0;
+    top: 70%;
+}
+
+.img-plant-3 img {
+    width: 120px;
+    height: 170px;
+}
+
+.img-plant-4 {
+    left: 48%;
+    top: 59%;
+    transform: rotate(20deg);
+}
+
+.img-phone {
+    top: 16%;
+    left: 16%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 3px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    border-top: 1px solid #73d04a;
+}
